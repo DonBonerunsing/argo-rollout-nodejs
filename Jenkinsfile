@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     DOCKERHUB_CREDENTIALS = credentials('danny-dockerhub2')
-    APP_NAME = "danny/argo-rollout-bluegreen"
+    APP_NAME = "danny1dockerhub/argo-rollout-bluegreen"
     }
     stages { 
         stage('SCM Checkout') {
